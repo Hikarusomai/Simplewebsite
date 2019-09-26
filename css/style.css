@@ -4,6 +4,8 @@
 	box-sizing: border-box;
 }
 
+
+
 .nav {
 	
 	min-height: 10vh;
@@ -79,21 +81,21 @@ li a:hover{
 
 }
 .one{
-	margin-left: 53px;
-	transform: translate(10%, 0%);
+	padding-left: 53px;
+	transform: translate(20%, 0%);
 }
 
 .two{
-	margin-left: 20px;
-	transform: translate(-10%, 0%);
+	padding-left: 20px;
+	transform: translate(-20%, 0%);
 
 }
 .tree{
-	margin-left: 68px;
-	transform: translate(10%, 0%);
+	padding-left: 68px;
+	transform: translate(20%, 0%);
 }
 .four{
-	transform: translate(-10%, 0%);
+	transform: translate(-20%, 0%);
 }
 .image{
 	text-align: center;
@@ -101,19 +103,23 @@ li a:hover{
 	align-self: center;
   	justify-self: center;
 	grid-column: 3/4;
-	transition: transform 0.7s ease-out;
 }
 .image:hover .one{
 	transform: translate(0%, 0%);
+	transition: transform 0.7s ease-in-out;
 }
 .image:hover .two{
 	transform: translate(0%, 0%);
+	transition: transform 0.8s ease-out;
 }
 .image:hover .tree{
 	transform: translate(0%, 0%);
+	transition: transform 0.9s ease-out;
 }
 .image:hover .four{
+
 	transform: translate(0%, 0%);
+	transition: transform 1s ease-in-out;
 }
 
 body{
